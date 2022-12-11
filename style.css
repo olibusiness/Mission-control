@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.rocket{
+    border: thick solid rgb(208, 208, 208);
+    border-radius: 15px;
+    padding-left: 20px;
+    background-color: rgb(30, 29, 29);
+    color: white;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(https://s.hdnux.com/photos/30/04/43/6310141/3/rawImage.jpg);
+}
+.title{
+    color:rgb(234, 234, 234);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border: thin solid black;
+    max-width: 500px;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 23px;
+    border-radius: 15px;
+}
+p, h1, h2, h3, a{
+    color: white;
+}
+
+a:link { text-decoration: none; }
+
+img{
+    border-radius: 10px;
+    object-fit: contain;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.NewsBor, .NewsBor1{
+    border: thick solid rgb(208, 208, 208);
+    background-color: rgb(30, 29, 29);
+    color: white;
+    border-radius: 15px;
+    padding-left: 12px;
+    max-width: 380px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+
+}
+.News-title{
+ text-align: center;
+ font-size: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700;
+ background-color: rgb(30, 29, 29);
+ max-width: 150px;
+ border-radius: 15px;
+ margin: auto;
+ margin-bottom: 30px;
+ margin-top: 40px;
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+}
