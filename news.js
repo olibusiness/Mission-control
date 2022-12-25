@@ -5,9 +5,6 @@ function api(){
     fetch('https://api.spaceflightnewsapi.net/v3/articles')
     .then(Response => Response.json())
     .then(news =>{
-       console.log(news)
-
-       // make border box have a look at other news website
 
        let a = document.createElement('a');
        let link = document.createTextNode(news[0].newsSite)
