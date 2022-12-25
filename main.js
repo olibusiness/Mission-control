@@ -7,8 +7,6 @@ function api(){
     .then(responce => responce.json())
     .then(data => {
 
-        console.log(data.result)
-
         //What mission it is
         document.getElementById('mission')
         .innerText = ('Mission: '+data.result[0].missions[0].name)
@@ -47,11 +45,11 @@ function api(){
          = (data.result[4].pad.location.name + ', ' + data.result[4].pad.location.country);
 
          //rocket image
-         let rocketType = data.result[0].vehicle.name
-         let rocketType1 = data.result[1].vehicle.name
-         let rocketType2 = data.result[2].vehicle.name
-         let rocketType3 = data.result[3].vehicle.name
-         let rocketType4 = data.result[4].vehicle.name
+//          let rocketType = data.result[0].vehicle.name
+//          let rocketType1 = data.result[1].vehicle.name
+//          let rocketType2 = data.result[2].vehicle.name
+//          let rocketType3 = data.result[3].vehicle.name
+//          let rocketType4 = data.result[4].vehicle.name
 
         //all time count downs
        timedown(data.result[0].date_str + " 2022", 'launch');
